@@ -1,7 +1,7 @@
 # k-Nearest-Neighbors-using-R
 The k-nearest neighbors (KNN) algorithm is a simple, supervised machine learning algorithm that can be used to solve both classification and regression problems. 
 
-It's very easy to implement. Only has two parameter - K and the distance matrix. Also can work with any number of classes.
+It's very easy to implement. Only has two parameter - K and the distance measure. Also can work with any number of classes.
 
 But it is also known as a lazy learner. Because in the trining phase KNN algorithm just store the data and it does not perform any calculation. Also it does not work well with
 High dimension data.
