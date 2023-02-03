@@ -1,10 +1,11 @@
-# k-Nearest-Neighbors-using-R
-The k-nearest neighbors (KNN) algorithm is a simple, supervised machine learning algorithm that can be used to solve both classification and regression problems. 
+# K-Nearest Neighbors (KNN) Algorithm in R
+A simple, supervised machine learning algorithm for solving classification and regression problems, implemented in R.
 
-It's very easy to implement. Only has two parameter - K and the distance measure. Also can work with any number of classes.
-
-But it is also known as a lazy learner. Because in the trining phase KNN algorithm just store the data and it does not perform any calculation. Also it does not work well with
-High dimension data.
-
-Here we use R to implement KNN. The data set is from the ISLR package. It is called Caravan. 
-Caravan is a customer data. It has data of 6000 customers and 80 features/variables. We check based on the features if they purchased insurance or not from Caravan Insurance Company.
+## Features
+* Easy to implement with only two parameters: K and the distance measure.
+* Can work with any number of classes.
+## Limitations
+* Known as a "lazy learner" as it only stores the data in the training phase and does not perform any calculation.
+* May not work well with high-dimension data.
+## Data
+The data used in this implementation is the "Caravan" dataset from the ISLR package. It contains customer data for 6000 customers and 80 features/variables. The target is to predict if the customer purchased insurance or not from Caravan Insurance Company based on the features.
